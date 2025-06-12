@@ -1,0 +1,6 @@
+tk
+joblib
+pandas
+scikit-learn
+numpy
+requests

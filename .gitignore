@@ -1,0 +1,23 @@
+# Environnements virtuels
+venv/
+.env/
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Dossiers de build (PyInstaller ou setup)
+build/
+dist/
+*.spec
+
+# Données sensibles / modèles AI
+*.pkl
+*.h5
+*.log
+logs/
+*.csv
+
+# Fichiers systèmes
+.DS_Store
+*.swp
