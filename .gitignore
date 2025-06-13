@@ -12,8 +12,6 @@ dist/
 *.spec
 
 # Données sensibles / modèles AI
-*.pkl
-*.h5
 *.log
 logs/
 *.csv

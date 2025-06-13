@@ -7,6 +7,14 @@ import requests
 import itertools
 import string
 import pandas as pd  # import pandas pour CSV
+import sklearn
+
+
+# Trick to force PyInstaller to include sklearn
+try:
+    from sklearn.linear_model import LogisticRegression
+except ImportError:
+    pass
 
 def load_ai_model(model_path='ai/password_model.pkl', vectorizer_path='ai/vectorizer.pkl'):
     with open(model_path, 'rb') as m, open(vectorizer_path, 'rb') as v:
