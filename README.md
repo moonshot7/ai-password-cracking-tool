@@ -2,6 +2,7 @@
 
 # 1. Clone the repository
 git clone https://github.com/yourusername/ai-password-cracker.git
+
 cd ai-password-cracker
 
 # 2. Create a virtual environment
